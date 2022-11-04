@@ -1,0 +1,14 @@
+# liguria-js:
+#   filter: rjsmin
+#   output: ckanext-liguria/%(version)s-liguria.js
+#   contents:
+#     - js/liguria.js
+#   extra:
+#     preload:
+#       - base/main
+
+# liguria-css:
+#   filter: cssrewrite
+#   output: ckanext-liguria/%(version)s-liguria.css
+#   contents:
+#     - css/liguria.css
