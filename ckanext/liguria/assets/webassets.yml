@@ -7,8 +7,8 @@
 #     preload:
 #       - base/main
 
-# liguria-css:
-#   filter: cssrewrite
-#   output: ckanext-liguria/%(version)s-liguria.css
-#   contents:
-#     - css/liguria.css
+liguria-css:
+  filter: cssrewrite
+  output: ckanext-liguria/%(version)s-liguria.css
+  contents:
+    - css/liguria.css
