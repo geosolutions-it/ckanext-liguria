@@ -1,0 +1,205 @@
+/* COLORS (mainly created by diff'ing official red and green templates, and replacing colors */
+.banner {
+  background-color: #F5656;
+}
+
+.media-view:hover,
+.media-view.hovered {
+  border-color: #F5656;
+}
+
+.media-view:hover .banner,
+.media-view.hovered .banner {
+  background-color: #F5656;
+}
+
+.editor .editor-info-block a {
+  color: #F5656;
+}
+
+.resource-list.reordering .resource-item.ui-sortable-helper {
+  border: 1px solid #F5656;
+}
+.resource-list.reordering .resource-item.ui-sortable-helper .handle {
+  border-color: #F5656;
+}
+
+.view-list li a.active,
+.view-list li a:hover {
+  border-color: #F5656;
+}
+.view-list li a.active .icon,
+.view-list li a:hover .icon {
+  background-color: #F5656;
+  color: #f6f6f6;
+}
+.view-list li .arrow {
+  border-top-color: #F5656;
+}
+.view-list li.active a {
+  border-color: #F5656;
+}
+.view-list li.active a .icon {
+  background-color: #F5656;
+}
+
+.view-list.stacked::-webkit-scrollbar-thumb:hover {
+  background-color: #F5656;
+}
+
+.homepage .module-search .module-content {
+  background-color: #0f5656;
+}
+
+.homepage .module-search .tags {
+  background-color: #0E6A7F;
+}
+
+.account-masthead {
+  background: #0e6a7f url("../../../base/images/bg.png");
+}
+
+.account-masthead .account ul li {
+  border-left: 1px solid #842f22;
+}
+.account-masthead .account ul li a {
+  color: #FFF14B;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.account-masthead .account ul li a:hover {
+  color: #0F5656;
+  background-color: #FFF14B;
+}
+
+.account-masthead .account .notifications a span.badge {
+  background-color: #842f22;
+  color: #f0d1cc;
+}
+.account-masthead .account .notifications a:hover span {
+  background-color: #0e6a7f;
+}
+
+.masthead {
+  background: #0F5656;
+}
+
+.masthead .navigation .nav-pills li a:hover,
+.masthead .navigation .nav-pills li a:focus,
+.masthead .navigation .nav-pills li.active a {
+  background-color: #FFF14B;
+  color: #0f5656;
+}
+
+
+.masthead .btn-navbar-btn,
+.masthead .btn-navbar-btn:hover,
+.masthead .btn-navbar-btn:focus,
+.masthead .btn-navbar-btn:active,
+.masthead .btn-navbar-btn.active,
+.masthead .btn-navbar-btn.disabled,
+.masthead .btn-navbar-btn[disabled] {
+  background-color: #e6a7f;
+}
+
+.site-footer {
+  background: #F5656 url("../../../base/images/bg.png");
+}
+
+.site-footer .navigation .nav-pills li a:hover,
+.site-footer .navigation .nav-pills li a:focus,
+.site-footer .navigation .nav-pills li.active a {
+  background-color: #e6a7f;
+}
+
+.site-footer .btn-navbar-btn,
+.site-footer .btn-navbar-btn:hover,
+.site-footer .btn-navbar-btn:focus,
+.site-footer .btn-navbar-btn:active,
+.site-footer .btn-navbar-btn.active,
+.site-footer .btn-navbar-btn.disabled,
+.site-footer .btn-navbar-btn[disabled] {
+  background-color: #e6a7f;
+}
+
+.site-footer,
+.site-footer label,
+.site-footer small {
+  color: #e6b5ad;
+}
+.site-footer a {
+  color: #e6b5ad;
+}
+.attribution small {
+  color: #e6b5ad;
+}
+
+.popover-followee .nav li a i {
+  background-color: #F5656;
+}
+.popover-followee .nav li a:hover i {
+  background-color: #000;
+}
+.popover-followee .nav li.active a i {
+  color: #F5656;
+}
+
+.resource-view-list.reordering li.ui-sortable-helper {
+  border: 1px solid #F5656;
+}
+.resource-view-list.reordering li.ui-sortable-helper .handle {
+  border-color: #F5656;
+}
+
+body {
+  background: #0F5656 url("../../../base/images/bg.png");
+
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+/** MORE COLORS - away from original schema **/
+
+.homepage .module-search .tags .tag {
+   background-color: #FFF14B;
+   color: #0F5656;
+   border-radius: 2px;
+
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.homepage .module-search .module-content .heading {
+   text-transform: uppercase;
+   font-size: 18px;
+}
+
+.masthead .nav > li > a {
+  font-weight: bold;
+}
+
+/** LAYOUT **/
+
+.hero {
+   background: transparent url('/liguria/img/home_bg.webp') -440px -450px no-repeat padding-box;
+}
+
+.masthead .logo img {
+    max-height: 100px;
+}
+
+.homepage .module-search {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    padding: 0;
+    border: 0;
+}
+
+.homepage .module-search .module-content .heading {
+    line-height: 20px;
+}
+
+

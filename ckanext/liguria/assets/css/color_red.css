@@ -1,0 +1,154 @@
+
+.banner {
+  background-color: #C14531;
+}
+
+.media-view:hover,
+.media-view.hovered {
+  border-color: #C14531;
+}
+
+.media-view:hover .banner,
+.media-view.hovered .banner {
+  background-color: #C14531;
+}
+
+.editor .editor-info-block a {
+  color: #C14531;
+}
+
+.resource-list.reordering .resource-item.ui-sortable-helper {
+  border: 1px solid #C14531;
+}
+.resource-list.reordering .resource-item.ui-sortable-helper .handle {
+  border-color: #C14531;
+}
+
+.view-list li a.active,
+.view-list li a:hover {
+  border-color: #C14531;
+}
+.view-list li a.active .icon,
+.view-list li a:hover .icon {
+  background-color: #C14531;
+  color: #f6f6f6;
+}
+.view-list li .arrow {
+  border-top-color: #C14531;
+}
+.view-list li.active a {
+  border-color: #C14531;
+}
+.view-list li.active a .icon {
+  background-color: #C14531;
+}
+
+.view-list.stacked::-webkit-scrollbar-thumb:hover {
+  background-color: #C14531;
+}
+
+.homepage .module-search .module-content {
+  background-color: #C14531;
+}
+
+.homepage .module-search .tags {
+  background-color: #983627;
+}
+
+.account-masthead {
+  background: #983627 url("../../../base/images/bg.png");
+}
+
+.account-masthead .account ul li {
+  border-left: 1px solid #842f22;
+}
+.account-masthead .account ul li a {
+  color: #f0d1cc;
+}
+
+.account-masthead .account ul li a:hover {
+  color: #f6e3e0;
+  background-color: #842f22;
+}
+
+.account-masthead .account .notifications a span.badge {
+  background-color: #842f22;
+  color: #f0d1cc;
+}
+.account-masthead .account .notifications a:hover span {
+  background-color: #70281c;
+}
+
+.masthead {
+  background: #C14531 url("../../../base/images/bg.png");
+}
+
+.masthead .navigation .nav-pills li a:hover,
+.masthead .navigation .nav-pills li a:focus,
+.masthead .navigation .nav-pills li.active a {
+  background-color: #983627;
+}
+
+
+.masthead .btn-navbar-btn,
+.masthead .btn-navbar-btn:hover,
+.masthead .btn-navbar-btn:focus,
+.masthead .btn-navbar-btn:active,
+.masthead .btn-navbar-btn.active,
+.masthead .btn-navbar-btn.disabled,
+.masthead .btn-navbar-btn[disabled] {
+  background-color: #983627;
+}
+
+.site-footer {
+  background: #C14531 url("../../../base/images/bg.png");
+}
+
+.site-footer .navigation .nav-pills li a:hover,
+.site-footer .navigation .nav-pills li a:focus,
+.site-footer .navigation .nav-pills li.active a {
+  background-color: #983627;
+}
+
+.site-footer .btn-navbar-btn,
+.site-footer .btn-navbar-btn:hover,
+.site-footer .btn-navbar-btn:focus,
+.site-footer .btn-navbar-btn:active,
+.site-footer .btn-navbar-btn.active,
+.site-footer .btn-navbar-btn.disabled,
+.site-footer .btn-navbar-btn[disabled] {
+  background-color: #983627;
+}
+
+.site-footer,
+.site-footer label,
+.site-footer small {
+  color: #e6b5ad;
+}
+.site-footer a {
+  color: #e6b5ad;
+}
+.attribution small {
+  color: #e6b5ad;
+}
+
+.popover-followee .nav li a i {
+  background-color: #C14531;
+}
+.popover-followee .nav li a:hover i {
+  background-color: #000;
+}
+.popover-followee .nav li.active a i {
+  color: #C14531;
+}
+
+.resource-view-list.reordering li.ui-sortable-helper {
+  border: 1px solid #C14531;
+}
+.resource-view-list.reordering li.ui-sortable-helper .handle {
+  border-color: #C14531;
+}
+
+body {
+  background: #C14531 url("../../../base/images/bg.png");
+}
