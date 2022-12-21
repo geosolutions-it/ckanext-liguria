@@ -202,4 +202,25 @@ body {
     line-height: 20px;
 }
 
+.ld-index-group a img {
+    max-height: 100px;
 
+    margin-bottom: 10px;
+}
+
+.ld-index-group a {
+    font-family: myriad-pro, sans-serif;
+    color: #FFF14B;
+}
+
+.ld-col-1 {
+    width: 14.2857143%;
+
+    float: left;
+
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}

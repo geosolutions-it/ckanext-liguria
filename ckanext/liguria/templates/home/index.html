@@ -8,17 +8,19 @@
     {% endblock %}
   </div>
 </div>
+
 <div role="main">
   <div class="container">
-    <div class="row row2">
-
-      <div class="col-md-6 col1">
-        {% block stats %}
-          {% snippet 'home/snippets/stats.html' %}
-        {% endblock %}
+    <div class="row">
+      {% for group in h.lig_get_groups(15) %}
+      <div class="ld-index-group ld-col-1">
+        <a href="/dataset/?groups={{ group.name }}" class="thumbnail__">
+          <img src="{{ group.image_url}}" alt="Ambiente" />
+          {{ group.title }}
+        </a>
       </div>
+      {% endfor %}
     </div>
   </div>
 </div>
-
 {% endblock %}
