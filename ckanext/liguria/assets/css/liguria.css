@@ -1,50 +1,55 @@
 /* COLORS (mainly created by diff'ing official red and green templates, and replacing colors */
 .banner {
-  background-color: #F5656;
+  background-color: #0F5656;
 }
 
 .media-view:hover,
 .media-view.hovered {
-  border-color: #F5656;
+  border-color: #0F5656;
 }
 
 .media-view:hover .banner,
 .media-view.hovered .banner {
-  background-color: #F5656;
+  background-color: #0F5656;
 }
 
 .editor .editor-info-block a {
-  color: #F5656;
+  color: #0F5656;
 }
 
 .resource-list.reordering .resource-item.ui-sortable-helper {
-  border: 1px solid #F5656;
+  border: 1px solid #0F5656;
 }
+
 .resource-list.reordering .resource-item.ui-sortable-helper .handle {
-  border-color: #F5656;
+  border-color: #0F5656;
 }
 
 .view-list li a.active,
 .view-list li a:hover {
-  border-color: #F5656;
+  border-color: #0F5656;
 }
+
 .view-list li a.active .icon,
 .view-list li a:hover .icon {
-  background-color: #F5656;
+  background-color: #0F5656;
   color: #f6f6f6;
 }
+
 .view-list li .arrow {
-  border-top-color: #F5656;
+  border-top-color: #0F5656;
 }
+
 .view-list li.active a {
-  border-color: #F5656;
+  border-color: #0F5656;
 }
+
 .view-list li.active a .icon {
-  background-color: #F5656;
+  background-color: #0F5656;
 }
 
 .view-list.stacked::-webkit-scrollbar-thumb:hover {
-  background-color: #F5656;
+  background-color: #0F5656;
 }
 
 .homepage .module-search .module-content {
@@ -60,8 +65,9 @@
 }
 
 .account-masthead .account ul li {
-  border-left: 1px solid #842f22;
+  border-left: 1px solid #0F5656;
 }
+
 .account-masthead .account ul li a {
   color: #FFF14B;
   font-weight: bold;
@@ -74,9 +80,10 @@
 }
 
 .account-masthead .account .notifications a span.badge {
-  background-color: #842f22;
+  background-color: #0F5656;
   color: #f0d1cc;
 }
+
 .account-masthead .account .notifications a:hover span {
   background-color: #0e6a7f;
 }
@@ -100,17 +107,18 @@
 .masthead .btn-navbar-btn.active,
 .masthead .btn-navbar-btn.disabled,
 .masthead .btn-navbar-btn[disabled] {
-  background-color: #e6a7f;
+  background-color: #0E6A7F;
 }
 
 .site-footer {
-  background: #F5656 url("../../../base/images/bg.png");
+  border-top: 1px solid #0E6A7F;
+  background: #0f5656 url("../../../base/images/bg.png");
 }
 
 .site-footer .navigation .nav-pills li a:hover,
 .site-footer .navigation .nav-pills li a:focus,
 .site-footer .navigation .nav-pills li.active a {
-  background-color: #e6a7f;
+  background-color: #0f5656;
 }
 
 .site-footer .btn-navbar-btn,
@@ -120,41 +128,50 @@
 .site-footer .btn-navbar-btn.active,
 .site-footer .btn-navbar-btn.disabled,
 .site-footer .btn-navbar-btn[disabled] {
-  background-color: #e6a7f;
+  background-color: #0f5656;
 }
 
 .site-footer,
 .site-footer label,
 .site-footer small {
-  color: #e6b5ad;
+  color: #ffffff;
 }
+
 .site-footer a {
-  color: #e6b5ad;
+  color: #ffffff;
 }
+
+/* fix responsiveness of language selector in footer */
+.site-footer .select2-container.lang-container {
+  max-width: 100%;
+}
+
 .attribution small {
-  color: #e6b5ad;
+  color: #ffffff;
 }
 
 .popover-followee .nav li a i {
-  background-color: #F5656;
+  background-color: #0F5656;
 }
+
 .popover-followee .nav li a:hover i {
   background-color: #000;
 }
+
 .popover-followee .nav li.active a i {
-  color: #F5656;
+  color: #0F5656;
 }
 
 .resource-view-list.reordering li.ui-sortable-helper {
-  border: 1px solid #F5656;
+  border: 1px solid #0F5656;
 }
+
 .resource-view-list.reordering li.ui-sortable-helper .handle {
-  border-color: #F5656;
+  border-color: #0F5656;
 }
 
 body {
   background: #0F5656 url("../../../base/images/bg.png");
-
   font-family: 'Montserrat';
   font-weight: 500;
 }
@@ -162,65 +179,115 @@ body {
 /** MORE COLORS - away from original schema **/
 
 .homepage .module-search .tags .tag {
-   background-color: #FFF14B;
-   color: #0F5656;
-   border-radius: 2px;
-
-   font-weight: bold;
-   text-transform: uppercase;
+  background-color: #FFF14B;
+  color: #0F5656;
+  border-radius: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: none;
+  border: none;
 }
 
 .homepage .module-search .module-content .heading {
-   text-transform: uppercase;
-   font-size: 18px;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 
-.masthead .nav > li > a {
+.masthead .nav>li>a {
   font-weight: bold;
 }
 
 /** LAYOUT **/
 
 .hero {
-   background: transparent url('/liguria/img/home_bg.webp') -440px -450px no-repeat padding-box;
+  background-color: transparent;
+  background-image: url('/liguria/img/home_bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
 }
-
-.masthead .logo img {
-    max-height: 100px;
-}
-
 .homepage .module-search {
-    margin-top: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
-
-    padding: 0;
-    border: 0;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
 }
 
-.homepage .module-search .module-content .heading {
-    line-height: 20px;
+@media only screen and (min-width: 1200px) {
+  .masthead .logo img {
+    max-height: 90px;
+  }
 }
 
-.ld-index-group a img {
-    max-height: 100px;
+/* ld group index */
 
-    margin-bottom: 10px;
+.ld-index-group-container {
+  padding: 32px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
+.ld-index-group {
+  width: 142px;
+  margin: 8px;
+}
 .ld-index-group a {
-    font-family: myriad-pro, sans-serif;
-    color: #FFF14B;
+  color: #FFF14B;
+  text-align: center;
+}
+.ld-index-group img {
+  width: 142px;
+  height: 142px;
+  object-fit: contain;
+}
+.ld-index-group-title {
+  margin-top: 15px;
 }
 
-.ld-col-1 {
-    width: 14.2857143%;
+/* facet */
 
-    float: left;
+.badge {
+  background-color: #0F5656;
+}
+.dataset-resources li a {
+  background-color: #0F5656;
+}
+.pill {
+  background-color: #FFF14B;
+  color: #0F5656;
+  border-radius: 2px;
+}
+.pill a {
+  color: #0F5656;
+}
 
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+.nav-item.active > a:hover, .nav-aside li.active a:hover,
+.nav-item.active > a, .nav-aside li.active a {
+  background-color: #FFF14B;
+  color: #0F5656;
+}
 
+.nav-item.active > a:before, .nav-aside li.active a:before {
+  border-left-color: #FFF14B;
+}
+
+.nav-item.active {
+  border-bottom-color: #0F5656;
+}
+
+.module-heading {
+  background-color: #0F5656;
+  color: #ffffff;
+  border-left-color: #0F5656;
+}
+
+.module-tabs li.ui-state-active a:before {
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 7px;
+  right: auto;
+  left: 100%;
 }

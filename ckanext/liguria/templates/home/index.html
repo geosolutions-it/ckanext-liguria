@@ -4,22 +4,24 @@
 <div role="main" class="hero">
   <div class="container">
     {% block search %}
-      {% snippet 'home/snippets/search.html' %}
+    {% snippet 'home/snippets/search.html' %}
     {% endblock %}
   </div>
 </div>
 
-<div role="main">
-  <div class="container">
-    <div class="row">
-      {% for group in h.lig_get_groups(15) %}
-      <div class="ld-index-group ld-col-1">
-        <a href="/dataset/?groups={{ group.name }}" class="thumbnail__">
-          <img src="{{ group.image_url}}" alt="Ambiente" />
-          {{ group.title }}
-        </a>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="ld-index-group-container">
+        {% for group in h.lig_get_groups(15) %}
+        <div class="ld-index-group">
+          <a href="/dataset/?groups={{ group.name }}" class="thumbnail__">
+            <img src="{{ group.image_url}}" alt="Ambiente" />
+            <div class="ld-index-group-title">{{ group.title }}</div>
+          </a>
+        </div>
+        {% endfor %}
       </div>
-      {% endfor %}
     </div>
   </div>
 </div>
